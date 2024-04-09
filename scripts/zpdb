@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
     config = {
         "name": f"{LAUNCH_FLAG}: {' '.join(sys.argv[1:])}",
-        "type": "python",
+        "type": "debugpy",
         "request": "launch",
         "program": f"{file_}",
         "env": env_dict,
